@@ -29,8 +29,8 @@ root.withdraw() # Ana pencereyi gizle
 
 # Kullanıcıya onay mesajını göster.
 # Kullanıcının verdiği metni düzenleyerek kullanıyoruz:
-kullanici_mesaji = "Nitro giftlerini oluşturmak istiyormusun?"
-onay_basligi = "Onay Gerekiyor"
+kullanici_mesaji = "Do you want to create your nitro gifts?"
+onay_basligi = "Approval required"
 
 # askyesno fonksiyonu Evet için True, Hayır için False döndürür.
 emin_misin = messagebox.askyesno(onay_basligi, kullanici_mesaji)
